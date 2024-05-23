@@ -1,0 +1,16 @@
+p.p1{
+    background-color: #FFFF99;
+}
+p.p2{
+    background-color: #66CCFF;
+}
+p.p3{
+    background-color: #99FF66;
+}
+p{
+    margin: 10px;
+    padding: 10px;
+    margin-block-end: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+ }

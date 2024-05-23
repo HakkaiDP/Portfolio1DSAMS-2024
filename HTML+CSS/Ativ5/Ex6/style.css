@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+h2.h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+dl.l1 {
+    border-style: solid;
+    border-top: 3px solid #F00;
+    border-right: 3px solid #f00;
+    border-bottom: 3px solid #f00;
+    border-left: 3px solid #f00;
+    background-color: #FFFF99;
+    width: 400px;
+    padding: 20px;
+
+}

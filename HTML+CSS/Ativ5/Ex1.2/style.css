@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+p.p1{
+    background-color: yellow;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+p.p2{
+    background-color: #66CCFF;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-style:dotted;
+    margin-left: 20%;
+}
+p.p3{
+    background-color: #99FF66;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 40%;
+}
