@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML utilizando CSS</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+          h1{
+            font-size: 5e;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: red;
+          }
+          .form{
+            display: flex;
+            width: 100vw;
+            height: 120vh;
+            justify-content: center;
+            align-items: center;
+            color: red;
+          }
+          button{
+            color: black;
+            background-color: white;
+          }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="head">
+        <h1>LOGIN</h1>
+    </div>
+    <br>
+    </header>
+    <main>
+    <div class="form">
+        <form name="formulário" method="get">
+            <label for="Nome">Nome:</label>
+            <input maxlength="35" size="35" type="text" id="Nome" name="DevWeb" placeholder="Insira o nome do usuário" autofocus required/>
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <input maxlength="35" size="35" type="text" id="Email" name="DevWeb" placeholder="Insira o Email" required/> 
+            <br>
+            <br>
+            <label for="Senha">Senha:</label>
+            <input size="35" type="text" id="Senha" name="DevWeb" placeholder="Insira a senha" required/>
+            <br>
+            <br>
+            <button type="submit">Login</button>
+            <button type="reset" >Limpar</button>
+            </form>
+    </div>
+    </main>
+</body>
+</html>

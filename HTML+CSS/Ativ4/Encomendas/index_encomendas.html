@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomendar Bolos</title>
+</head>
+<body>
+    <header>
+    <h1>Pães Doces e Bolos</h1>
+    <ul>
+        <li><a href="file:///C:/Users/Hakkai/Documents/Trabalhos(Antonio)/Ativ04/Ativ04/Index.html" target="_blank">Página Principal</a></li>
+        <li><a href="file:///C:/Users/Hakkai/Documents/Trabalhos(Antonio)/Ativ04/Ativ04/Encomendas/Index_Encomendas.html" target="_blank">Encomendar Bolo</a></li>
+    </ul>
+    </header>
+    <main>
+    <div>
+    <h2>Encomendar Bolo</h2>
+    <form name="formulário" method="get">
+        <label for="Nome">Nome:</label>
+        <input maxlength="35" size="35" type="text" id="Nome" name="DevWeb" placeholder="Informe o nome" autofocus required/> 
+        <label for="DDD">DDD</label>
+        (<input maxlength="2" size="2" type="text" id="DDD" name="DevWeb" placeholder="DDD"required/>)
+        <label for="Telefone">Telefone:</label>
+        <input maxlength="10" size="10" type="text" id="Telefone" name="DevWeb" placeholder="Telefone" required/>
+    </div>
+    <br>
+    <div>
+    <table border>
+        <caption>Bolos</caption>
+    <tr>
+        <th><img src="C:\Users\Hakkai\Documents\Trabalhos(Antonio)\Ativ04\Ativ04\images\Bolo01.png" width="200" alt="Bolo de Chocolate"/></th>
+        <th><img src="C:\Users\Hakkai\Documents\Trabalhos(Antonio)\Ativ04\Ativ04\images\Bolo02.png" width="200" alt="Bolo de Frutas"/></th>
+        <th><img src="C:\Users\Hakkai\Documents\Trabalhos(Antonio)\Ativ04\Ativ04\images\Bolo03.png" width="200" alt="Bolo Misto"/></th>
+    </tr>
+    <tr>
+        <th>Chocolate</th>
+        <th>Frutas</th>
+        <th>Misto</th>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div>
+    <label>Sabor:</label>
+    <select id="Sabor" required>
+        <option selected disabled value="">Escolha...</option>
+        <option>Chocolate</option>
+        <option>Frutas</option>
+        <option>Misto</option>
+    </select>
+    <label>Tipo:</label>
+    <label>
+        <input type="radio" name="DevWeb" value="Simples">Simples
+        <input type="radio" name="DevWeb" value="Decorado">Decorado
+    </label>
+    </div>
+    <br>
+    <div>
+    <label>Tamanho:</label>
+    <input max="10" min="1" size="10" type="number" id="Tamanho" name="DevWeb" required/>kg
+    <input type="checkbox" id="Diet" name="DevWeb"/>Diet
+    </div>
+    <br>
+    <div>
+        <label>Observações:</label>
+        <br>
+        <textarea name="Observações" id="Observações" cols="80" rows="3" placeholder="Observações sobre o Pedido"></textarea>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Enviar Pedido</button>
+        <button type="reset" >Limpar</button>
+    </form>
+    </div>
+    </main>
+</body>
+</html>
