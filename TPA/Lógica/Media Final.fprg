@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 03:25:27 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDM6MTQ6MzIgIjsyNjI2"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDM6MjU6MjcgIjsxOzI3NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1" type="Real" array="False" size=""/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <declare name="Nota3" type="Real" array="False" size=""/>
+            <declare name="MediaFinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;Digite a terceira nota&quot;" newline="True"/>
+            <input variable="Nota3"/>
+            <assign variable="MediaFinal" expression="(Nota1*2+Nota2*3+Nota3*5)/10"/>
+            <output expression="&quot;Sua m&#233;dia final &#233;: &quot;&amp;MediaFinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

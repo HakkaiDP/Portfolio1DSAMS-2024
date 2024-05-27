@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-10 02:12:39 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDItMTY7MjAyNC0wNC0xMDsiMDE6MzE6MDEgIjsyNzg4"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDItMTY7MjAyNC0wNC0xMDsiMDI6MTI6MzkgIjsxOzI5MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CustoDeFabrica" type="Real" array="False" size=""/>
+            <declare name="PorcentagemDoDistribuidor" type="Real" array="False" size=""/>
+            <declare name="Impostos" type="Real" array="False" size=""/>
+            <declare name="ValorTotal" type="Real" array="False" size=""/>
+            <declare name="CustoAoConsumidor" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o custo de f&#225;brica?&quot;" newline="True"/>
+            <input variable="CustoDeFabrica"/>
+            <assign variable="PorcentagemDoDistribuidor" expression="CustoDeFabrica*28/100"/>
+            <assign variable="Impostos" expression="CustoDeFabrica*45/100"/>
+            <assign variable="CustoAoConsumidor" expression="CustoDeFabrica+PorcentagemDoDistribuidor+Impostos"/>
+            <output expression="&quot;O custo ao consumidor &#233; de R$ &quot;&amp;CustoAoConsumidor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

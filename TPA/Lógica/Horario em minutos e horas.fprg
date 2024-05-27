@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 03:00:54 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDI6NTE6NDYgIjsyNjMx"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDM6MDA6NTQgIjsxOzI3MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HorarioEmSegundos" type="Real" array="False" size=""/>
+            <declare name="HorarioEmHoras" type="Real" array="False" size=""/>
+            <declare name="HorarioEmMinutos" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreva a quantidade de segundos&quot;" newline="True"/>
+            <input variable="HorarioEmSegundos"/>
+            <assign variable="HorarioEmMinutos" expression="HorarioEmSegundos/60"/>
+            <assign variable="HorarioEmHoras" expression="HorarioEmMinutos/60"/>
+            <output expression="&quot;Em minutos s&#227;o &quot;&amp;HorarioEmMinutos&amp;&quot;min e em horas s&#227;o &quot;&amp;HorarioEmHoras&amp;&quot;h&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

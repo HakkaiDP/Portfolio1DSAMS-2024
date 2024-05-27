@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 02:50:24 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDI6NDM6MjQgIjsyNjI4"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDI6NTA6MjQgIjsxOzI3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1" type="Real" array="False" size=""/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <declare name="Nota3" type="Real" array="False" size=""/>
+            <declare name="Nota4" type="Real" array="False" size=""/>
+            <declare name="MediaFinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;Digite a terceira nota&quot;" newline="True"/>
+            <input variable="Nota3"/>
+            <output expression="&quot;Digite a quarta nota&quot;" newline="True"/>
+            <input variable="Nota4"/>
+            <assign variable="MediaFinal" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="&quot;Sua m&#233;dia aritm&#233;tica &#233;&quot;&amp;MediaFinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

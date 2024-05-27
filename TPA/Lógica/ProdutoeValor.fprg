@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 02:41:14 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDI6MDk6MzMgIjsyNjMw"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDI6NDE6MTQgIjsxOzI3MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Quantidade" type="Real" array="False" size=""/>
+            <declare name="ValorUnitario" type="Real" array="False" size=""/>
+            <declare name="ValorTotal" type="Real" array="False" size=""/>
+            <declare name="NomeDoProduto" type="String" array="False" size=""/>
+            <output expression="&quot;Escreva o nome do produto&quot;" newline="True"/>
+            <input variable="NomeDoProduto"/>
+            <output expression="&quot;Escreva o valor unit&#225;rio do produto&quot;" newline="True"/>
+            <input variable="ValorUnitario"/>
+            <output expression="&quot;Escreva a quantidade de produtos&quot;" newline="True"/>
+            <input variable="Quantidade"/>
+            <assign variable="ValorTotal" expression="ValorUnitario*Quantidade"/>
+            <output expression="&quot;Voc&#234; pagar&#225; R$&quot;&amp;ValorTotal&amp;&quot; em &quot; &amp;NomeDoProduto" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

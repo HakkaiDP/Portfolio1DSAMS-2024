@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 03:14:12 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDM6MDM6MTkgIjsyNjI5"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMjY7MjAyNC0wNC0wMzsiMDM6MTQ6MTIgIjsxOzI3MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Centimetros" type="Real" array="False" size=""/>
+            <declare name="Metros" type="Real" array="False" size=""/>
+            <declare name="Milimetros" type="Integer" array="False" size=""/>
+            <declare name="Decimetros" type="Real" array="False" size=""/>
+            <output expression="&quot;Escreva a quantidade de centimetros&quot;" newline="True"/>
+            <input variable="Centimetros"/>
+            <assign variable="Metros" expression="Centimetros/100"/>
+            <assign variable="Milimetros" expression="Centimetros*10"/>
+            <assign variable="Decimetros" expression="Centimetros/10"/>
+            <output expression="&quot;A quantidade de centimetros em metros &#233;: &quot;&amp;Metros&amp;&quot; em mil&#237;metros &#233;: &quot;&amp;Milimetros&amp;&quot; e em decimetros &#233;: &quot;&amp;Decimetros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
