@@ -1,0 +1,72 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    font-style: italic;
+    padding: 20px 0;
+}
+.t1h{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.table1{
+    margin-left: 37%;
+    border-color: white;
+    border-style: dotted;
+}
+main{
+    background-color: gray;
+}
+.p1m{
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.p1f{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+}
+.t1m{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.img1{
+    height: 400px;
+    margin-right: 10px;
+}
+.img2{
+    height: 400px;
+    width: 650px;
+    margin-left: 10px;
+}
+.table2{
+    margin-left: 15%;
+    font-size: 30px;
+    color: white;
+}
+.img2:hover{
+    transform: rotate(-5deg);
+    border: 5px double white;
+}
+.img1:hover{
+    transform: rotate(5deg);
+    border: 5px double white;
+}
+.p2m{
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
