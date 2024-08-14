@@ -1,0 +1,42 @@
+.d1{
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+input:invalid{
+    border: 2px dashed red;
+}
+input:valid{
+    border: 2px solid black;
+}
+input:required{
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 100ms;
+}
+body{
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+}
+form{
+    display: inline-block;
+    margin-top: 15%;
+}
+button{
+    background-color: blue;
+    color: white;   
+    transition: 300ms;
+    height: 50px;
+    width: 75px;
+}
+button:hover{
+    background-color: red;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.2);
+}
+input:hover{
+    transition-timing-function: ease-in-out;
+    transform: scale(1.2);
+}
