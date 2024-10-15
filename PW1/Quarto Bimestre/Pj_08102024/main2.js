@@ -1,7 +1,7 @@
 var num = prompt('Digite um número:');
-num = parseInt(numero);
+num = parseInt(num);
  
-var verify = numero % 2;
+var verify = num % 2;
 
     if (verify === 0) {
         console.log('O número ' + num + ' é par.');
