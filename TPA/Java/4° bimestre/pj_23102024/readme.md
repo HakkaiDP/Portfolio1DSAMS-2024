@@ -21,7 +21,7 @@
 
 * Utilizei o comando "arrays.sort(nomes)" para coloca-los em ordem alfabética.
 
-* E por fim com o código "System.out.println(Arrays.toString(nomes))" fareu com que sejam exibidos os 10 nomes em ordem alfabética.
+* E por fim com o código "System.out.println(Arrays.toString(nomes))" farei com que sejam exibidos os 10 nomes em ordem alfabética.
 
 <hr>
  
